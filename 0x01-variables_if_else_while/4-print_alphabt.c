@@ -1,9 +1,12 @@
 #include <stdio.h>
-/* main - prints alphabets in lowercase except q and e */
-/* return is always 0 */
 
+/**
+ * main -  Prints all the alphabets in lowercase except "q" and "e".
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
-  {
+{
 int i;
 for (i = 97; i < 123; i++)
 {
