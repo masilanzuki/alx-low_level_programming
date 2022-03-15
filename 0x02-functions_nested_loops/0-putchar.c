@@ -4,15 +4,16 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-char T[8] = "_putchar";
-int i = 0;
+	int i = 1;
+	char name[8] = "_putchar";
 
-for (i = 0; i < 8; i++)
-{
-putchar(T[i]);
-}
-putchar('\n');
-return (0);
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(name[i]);
+	}
+	_putchar('\n');
+	return (0);
 }
