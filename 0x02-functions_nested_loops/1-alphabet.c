@@ -5,12 +5,11 @@
  * Description: It prints the alphabet in lowercase fallowed by a new line
  * Return: Nothing.
  */
-int main(void)
+void print_alphabet(void)
 {
 	char i;
 
 	for (i = 'a'; i <= 'z'; i++)
-		putchar(i);
-	putchar('\n');
-	return(0);
+		_putchar(i);
+	_putchar('\n');
 }
