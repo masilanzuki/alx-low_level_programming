@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 /**
- * print-stirngs - print string parameters.
+ * print_strings - print string parameters.
  * @separator: string that contains the separator btwn stings.
  * @n: number of strings.
  *
@@ -22,7 +22,7 @@ s = va_arg(args, char *);
 if (s == NULL)
 printf("(nil)");
 else
-printf("%s",s);
+printf("%s", s);
 if (separator && i < n - 1)
 printf("%s", separator);
 }
